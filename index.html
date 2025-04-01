@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,10 +7,17 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="year">2025</div>
-      <div class="year">2026</div>
+    <!-- ローディングアニメーション -->
+    <div id="loading-animation">
+      <div id="year-counter">1923</div>
     </div>
+
+    <!-- メインコンテンツ（ローディング後に表示） -->
+    <div id="main-content" class="hidden">
+      <h1>メインコンテンツ</h1>
+      <p>ここにサイトの本文が表示されます</p>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>

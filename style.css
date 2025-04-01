@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+#loading-animation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  background-color: #000;
+  transition: opacity 1s ease-out;
+}
+
+#year-counter {
+  font-size: 8rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: #fff;
+}
+
+#main-content {
+  text-align: center;
+  padding: 2rem;
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
