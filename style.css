@@ -27,6 +27,9 @@ body {
   z-index: 1000;
   background-color: #000;
   transition: opacity 1s ease-out;
+  background-image: url("https://cdn.pixabay.com/photo/2016/05/28/07/06/writer-1421099_1280.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 #year-counter {
